@@ -3,21 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog sobre la criatura más adorable de latinoamérica">
     <title>Cielo</title>
 </head>
 <body>
     <h1>Cielo</h1>
-    <img src="Cielo.jpg" alt="Foto de la gata negra, Cielo" width="400">
+    <img src="Cielo.jpg" alt="Foto de la gata negra, Cielo" width="200">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque pharetra sem, nec 
         accumsan nisi vehicula nec. Donec ac elit velit. Pellentesque sit amet lobortis ipsum. 
         Pellentesque ullamcorper nibh augue, nec vehicula magna maximus eu. Maecenas id pellentesque diam. 
-        Phasellus feugiat nunc nisi, vitae ullamcorper ante euismod faucibus. Ut nisi turpis, 
-        lacinia at libero a, tincidunt facilisis dui. Nam eu dui eget metus aliquam sodales. 
-        Ut condimentum purus non pulvinar porta. Aenean dapibus facilisis enim, non aliquam mauris commodo in.
-         Morbi sagittis lacus vitae eros elementum suscipit. Aliquam cursus, risus et pulvinar dignissim, 
-         ante erat gravida augue, id sollicitudin diam ante ut justo. Aliquam vitae sapien ullamcorper nulla 
-         pretium interdum eget vehicula augue. Nullam venenatis, tortor nec gravida facilisis, 
-         diam nulla consequat nisi, ac pulvinar urna augue at nibh. Ut varius nisl vel turpis tempor, 
-         id pellentesque purus dapibus. Sed a ultricies nisl.</p>
+        Phasellus feugiat nunc nisi, vitae ullamcorper ante euismod faucibus.</p>
+    <h2>Gustos y preferencias</h2>
+    <ul>
+        <li>Atún</li>
+        <li>Dormir al sol</li>
+        <li>Jugar con sus amigos del barrio</li>
+    </ul>
+    <a href="https://www.youtube.com/watch?v=mKXHlZki9MI">Un vídeo de la canción favorita de Cielo</a>
+    <h2>Amigos de Cielo</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Color</th>
+                <th>Relación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Minerva</td>
+                <td>Gris atigrado</td>
+                <td>Hermana</td>
+            </tr>
+            <tr>
+                <td>Silvestre</td>
+                <td>Blanco y negro</td>
+                <td>Vecino de en frente</td>
+            </tr>
+            <tr>
+                <td>Blanquita</td>
+                <td>Blanco 100%</td>
+                <td>Vecino de al lado</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Por favor conteste esta breve encuesta</h2>
+    <form>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <br>
+        <input type="radio" id="emailSi" name="emailSpam" value="emailSi">
+        <label for="emailNo">Sí, por favor quiero recibir montones de correos.</label><br>
+        <input type="radio" id="emailNo" name="emailSpam" value="emailNo">
+        <label for="emailNo">No por favor, no me envie ningún correo.</label><br>   
+
+        <p>¿Cómo supiste de nosotros?</p>
+        
+        <input type="checkbox" id="facebook" name="facebook" value="facebook">
+        <label for="facebook">Facebook</label><br>
+        <input type="checkbox" id="diario" name="diario" value="diario">
+        <label for="diario">El diario</label><br>
+        <input type="checkbox" id="contacto" name="contacto" value="contacto">
+        <label for="contacto"> Un contacto</label><br>
+    
+        <input type="submit" value="Enviar!">
+    </form>
 </body>
 </html>
