@@ -5,10 +5,10 @@
 }
 
 #wrapper {
-    position: absolute;
     width: 950px;
     background-color: silver;
     margin: 0px auto;
+    padding: 5px;
 }
 
 #header {
