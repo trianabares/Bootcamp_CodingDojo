@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    width: 970px;
+
+}
+
+header {
+    width: 970px;
+    display: flex;
+    vertical-align: middle;
+    background-color: #245076;
+    color: white;
+}
+
+#logo {
+    width: 330px;
+    padding: 10px;
+}
+
+header div.searchbar {
+    text-align: right;
+    margin-left: 400px;
+}
+
+header div.searchbar p {
+    margin: 8px;
+    font-size: 12px;
+}
+
+header div.searchbar a {
+    color: rgb(231, 189, 75);
+}
+
+#form {
+    width: 200px;
+    height: 60px;
+    padding: 8px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #444444;
+    box-shadow: 3px 3px 3px rgb(43, 43, 43);
+    box-sizing: border-box;
+}
+
+#search {
+    padding: 5px;
+    text-align: center;
+    margin-top: 7px;
+    border-color: gray;
+}
+
+#boton {
+    background-color: #245076;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 3px;
+    border-color: gray;
+}
+
+nav {
+    display: flex;
+    background-color: #245076;
+}
+
+nav ul {
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #457EAD;
+    box-shadow: 3px 3px 3px rgb(70, 70, 70);
+    list-style: none;
+}
+
+nav li {
+    padding: 5px 25px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+
+nav li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    background-color: #245076;
+    padding: 10px 100px;
+
+}
+
+main div.aside {
+    flex: 1;
+    text-align: center;
+}
+
+main div.aside a {
+    color: white;
+}
+
+main div.aside ul {
+    list-style: none;
+}
+
+main div.aside ul li {
+    padding: 5px;
+}
+
+main div.main {
+    flex: 2;
+    text-align: center;
+    color: white;
+}
+
+main p.zen {
+    color: rgb(231, 189, 75);
+    font-size: 20px;
+    padding: 5px;
+    font-style: italic;
+}
+
+section {
+    display: flex;
+    padding: 0px 100px;
+    background: #fff;
+}
+
+.box {
+    flex: 1;
+    margin: 10px 30px;
+}
+
+hr {
+    background-color: rgba(50, 116, 172, 1);
+    height: 3px;
+}
+
+.box h3, p, ul {
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    background: rgb(36, 80, 118);
+    background: linear-gradient(180deg, rgba(36, 80, 118, 1) 0%, rgba(50, 116, 172, 1) 100%);
+}
+
+footer ul {
+    display: flex;
+    margin: 5px auto;
+    padding: 5px;
+    list-style: none;
+}
+
+footer li {
+    padding: 5px 25px;
+    margin: 5px auto;
+}
+
+footer li a {
+    font-size: 15px;
+    color: rgb(139, 218, 255);
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 10px;
+    color: rgb(139, 218, 255);
+}
