@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #6F5964;
+}
+
+header {
+    display: flex;
+    width: 1000px;
+    background-color: #F2F2F2;
+    margin: 0px auto;
+    vertical-align: middle;
+}
+
+header h1, header h2 {
+    padding: 10px;
+    flex:1;
+    color: black;
+}
+
+main div.first-cont {
+    display: flex;
+    vertical-align: top;
+    margin: 0px auto;
+    width: 950px;
+    padding: 5px;
+}
+
+main div.first-cont img {
+    width: 300px;
+    flex: 3;
+    margin: 9px;
+    border: 5px solid rgb(161, 163, 161);
+}
+
+main div.first-cont div {
+    flex: 4;
+    margin: 10px;
+    background-color: #E9E1E9;
+
+}
+
+footer {
+    width: 1000px;
+    background-color: #F2F2F2;
+    margin: 0px auto;
+    vertical-align: middle;
+}
+
+
+.titulos {
+    background-color: #878593;
+    padding: 5px;
+    color: white;
+}
+
+main div.projects {
+    display: flex;
+    vertical-align: top;
+    margin: 0px auto;
+    width: 950px;
+    padding: 5px 5px 0px 5px;
+}
+
+main div.projects div.box {
+    flex: 1;
+    margin: 10px 10px 0px 10px;
+    background-color: #E9E1E9;
+    justify-content: center;
+}
+
+main div.projects div.box img{
+    width: 295px;
+}
+
+main div.projects-tech {
+    display: flex;
+    vertical-align: top;
+    margin: 0px auto;
+    width: 950px;
+    padding: 0px 5px 5px 5px;
+}
+
+main div.projects-tech div.box {
+    flex: 1;
+    margin: 0px 10px 10px 10px;
+    background-color: #E9E1E9;
+    justify-content: center;
+}
+
+main div.projects-tech div.tecnologies{
+    padding: 15px;
+}
+
+main div.projects-tech img{
+    width: 40px;
+    margin: 5px;
+}
+
+p {
+    padding: 10px;
+}
