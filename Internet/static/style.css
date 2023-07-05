@@ -35,6 +35,8 @@ nav h2 {
 
 main {
     display: flex;
+    background: rgb(227, 227, 227);
+    background: linear-gradient(180deg, rgba(227, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 main aside {
@@ -78,11 +80,6 @@ main aside p {
 #boton2 {
     background: rgb(234, 170, 80);
     background: linear-gradient(180deg, rgba(234, 170, 80, 1) 0%, rgba(240, 118, 0, 1) 98%);
-}
-
-main {
-    background: rgb(227, 227, 227);
-    background: linear-gradient(180deg, rgba(227, 227, 227, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 main aside hr {
