@@ -1,0 +1,55 @@
+@media only screen and (max-width: 480px) {
+    .phone {
+        display: block;
+        width: 100%;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+    .fijo {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .tablet {
+        display: block;
+        width: 100%;
+    }
+    .phone {
+        display: none;
+    }
+    .desktop {
+        display: none;
+    }
+    .fijo {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .desktop {
+        display: block;
+        width: 100%;
+    }
+    .tablet {
+        display: none;
+    }
+    .phone {
+        display: none;
+    }
+    .fijo {
+        width: 100%;
+    }
+}
+
+.fijo {
+    background-color: lightcoral;
+}
+
+.desktop, .tablet, .phone {
+    background-color: lightgreen;
+}
