@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: silver;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        width: 97%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .main_content {
+        width: 90%;
+    }
+
+    .subcontents {
+        width: 90%;
+    }
+
+    .advertisement {
+        width: 99%;
+    }
+
+}
+
+@media only screen and (min-width: 481px) {
+    .header {
+        width: 97%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .main_content {
+        width: 90%;
+    }
+
+    .subcontents {
+        width: 45%;
+    }
+
+    .advertisement {
+        width: 99%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .header {
+        width: 97%;
+    }
+
+    .navigation {
+        width: 20%;
+    }
+
+    .main_content {
+        width: 75%;
+    }
+
+    .subcontents {
+        width: 32%;
+    }
+
+    .advertisement {
+        width: 99%;
+    }
+
+}
+
+.header {
+    min-height: 150px;
+    background-color: green;
+    margin: 10px;
+}
+
+.navigation {
+    min-height: 300px;
+    background-color: blue;
+    display: inline-block;
+    margin: 5px 5px 5px 10px;
+}
+
+.main_content {
+    min-height: 400px;
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 5px;
+}
+
+.subcontents {
+    min-height: 200px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 5px;
+}
+
+.advertisement {
+    min-height: 120px;
+    background-color: purple;
+    margin: 5px;
+}
